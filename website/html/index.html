@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/banner.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>SARMS.pl — Informacje</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <section id="title" class="brand">
+        <a href="index.html">SARMS.pl</a>
+      </section>
+      <section id="nav">
+        <nav class="nav" aria-label="Główne menu">
+          <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+            <span class="sr-only">Otwórz menu</span>
+            <span class="hamburger"></span>
+          </button>
+          <ul id="primary-menu" class="menu">
+            <li><a href="#sarms">SARMs</a></li>
+            <li><a href="#peptydy">Peptydy</a></li>
+            <li><a href="#sterydy">Sterydy anaboliczne</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#kontakt" class="btn-outline">Kontakt</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <!-- Banner -->
+    <section class="banner">
+      <picture>
+        <img src="assets/banner.png" alt="Banner informacyjny - Sarm, peptydy i sterydy" class="banner-img">
+      </picture>
+      <div class="banner-caption">
+        <h1>Informacje o SARMs, peptydach i sterydach anabolicznych</h1>
+        <p class="lead">Rzetelne, obiektywne i wyważone informacje — wyłącznie edukacyjne.</p>
+      </div>
+    </section>
+
+    <section class="gallery container" aria-label="Galeria kategorii">
+      <h2 class="section-title">Kategorie środków</h2>
+      <div class="grid">
+        <figure class="card">
+          <img src="assets/SARMSimg.png" alt="SARMs" loading="lazy">
+          <figcaption>
+            <h1>SARMs</h1>
+            <p class="muted">Selektywne modulatory receptora androgenowego — opis ogólny.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="assets/peptydy.png" alt="Peptydy" loading="lazy">
+          <figcaption>
+            <h1>Peptydy</h1>
+            <p class="muted">Krótkołańcuchowe związki białkowe używane w badaniach i medycynie.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="assets/sterydyanaboliczne.png" alt="Sterydy anaboliczne" loading="lazy">
+          <figcaption>
+            <h1>Sterydy anaboliczne</h1>
+            <p class="muted">Klasyczne steroidy anaboliczne — informacje medyczne i bezpieczeństwo.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="assets/FAQ.png" alt="FAQ" loading="lazy">
+          <figcaption>
+            <h1>FAQ</h1>
+            <p class="muted">Najczęściej zadawane pytania — uczciwe i neutralne odpowiedzi.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Sekcje informacyjne -->
+    <section class="container content" id="sarms">
+      <details open>
+        <summary>SARMs — co to jest?</summary>
+        <p>Selektywne modulatory receptora androgenowego (SARMs) to grupa związków badanych pod kątem potencjalnego działania anabolicznego. W kontekście naukowym bada się ich wpływ na gęstość kości i masę mięśniową. Nie są one zatwierdzone do stosowania u ludzi.</p>
+      </details>
+    </section>
+
+    <section class="container content" id="peptydy">
+      <details>
+        <summary>Peptydy</summary>
+        <p>Peptydy to krótkie łańcuchy aminokwasów o istotnych funkcjach biologicznych. W medycynie bada się ich wpływ na regenerację tkanek, metabolizm i procesy hormonalne. Treści mają wyłącznie charakter edukacyjny.</p>
+      </details>
+    </section>
+
+    <section class="container content" id="sterydy">
+      <details>
+        <summary>Sterydy anaboliczne</summary>
+        <p>Syntetyczne pochodne testosteronu opracowane w celach medycznych. Nadużywanie może prowadzić do poważnych skutków zdrowotnych, takich jak zaburzenia hormonalne, problemy z sercem czy wątrobą. Użycie poza wskazaniami medycznymi jest nielegalne.</p>
+      </details>
+    </section>
+
+    <section class="container contact" id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Masz pytanie lub sugestię? Napisz: <a href="mailto:mateuszpoppekaca@gmail.com">mateuszpoppekaca@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <details open>
+      <summary>Informacje o stronie</summary>
+      <p>Strona SARMS.pl ma charakter wyłącznie edukacyjny i informacyjny. Nie stanowi porady medycznej ani zachęty do stosowania substancji.</p>
+    </details>
+
+    <details>
+      <summary>Polityka prywatności</summary>
+      <p>Serwis nie gromadzi danych osobowych użytkowników poza niezbędnymi informacjami do działania strony.</p>
+    </details>
+
+    <details>
+      <summary>Kontakt</summary>
+      <p>Napisz: <a href="mailto:mateuszpoppekaca@gmail.com">mateuszpoppekaca@gmail.com</a></p>
+    </details>
+
+    <p class="copy">&copy; <span id="year"></span> Wszelkie prawa zastrzeżone • SARMS.pl</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
